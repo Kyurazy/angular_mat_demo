@@ -1,0 +1,138 @@
+body {
+    background-color: #e0f7fa;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, .form-title {
+    text-align: center;
+    color: #00695c;  
+    font-size: 28px;
+    margin-top: 30px;
+    font-weight: 600;
+  }
+  
+  .form-container {
+    max-width: 500px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  mat-form-field {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #f1f8e9;  
+  }
+  
+  mat-form-field .mat-form-field-wrapper {
+    border-radius: 8px;
+  }
+  
+  mat-form-field .mat-input-element {
+    padding: 14px;
+    font-size: 16px;
+    color: #00695c;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #00796b;  
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #004d40;  
+  }
+  
+  button:disabled {
+    background-color: #b2dfdb; 
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .slider-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  mat-slider {
+    width: 100%;
+  }
+  
+  .slider-label {
+    font-size: 15px;
+    color: #00695c;
+    font-weight: 600;
+  }
+  
+  .radio-group {
+    margin-bottom: 20px;
+  }
+  
+  .radio-label {
+    font-size: 15px;
+    color: #00695c;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .gender-radio-group {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+  }
+  
+  mat-radio-button {
+    color: #00796b; 
+  }
+  
+  .mat-error {
+    color: #d32f2f;  
+    font-size: 13px;
+  }
+  
+  .mat-datepicker-toggle button {
+    border-radius: 50%;
+    background-color: #00796b;
+  }
+  
+  .mat-datepicker-toggle mat-icon {
+    font-size: 24px;
+    color: white;
+  }
+  
+  .mat-form-field.mat-form-field-appearance-fill .mat-form-field-flex {
+    background-color: #ffffff;
+    border-radius: 8px;
+  }
+  
+  .mat-radio-button .mat-radio-outer-circle {
+    border-color: #00796b;
+  }
+  
+  .mat-radio-button .mat-radio-inner-circle {
+    background-color: #00796b;
+  }
+  
+  .mat-radio-button:hover .mat-radio-outer-circle {
+    border-color: #004d40;
+  }
+  
